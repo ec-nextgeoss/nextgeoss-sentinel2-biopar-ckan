@@ -260,6 +260,7 @@ function main()
 
   # Cleanup input product
   rm -rf ${s2Product}
+  rmdir ${inputDir} 2>/dev/null
 
   return ${SUCCESS}
 }
